@@ -1,3 +1,19 @@
+# [0.2.0](https://github.com/MarkShawn2020/better-copy-path-with-lines/compare/v0.1.3...v0.2.0) (2025-11-14)
+
+
+### Bug Fixes
+
+* rename extension to better-copy-path-with-line to avoid marketplace conflict ([fb69f9c](https://github.com/MarkShawn2020/better-copy-path-with-lines/commit/fb69f9cb9344456a2706a21d575e8faf4a995e64))
+* resolve release workflow issues and add comprehensive debugging ([acfffa5](https://github.com/MarkShawn2020/better-copy-path-with-lines/commit/acfffa524d6386b2301c30c85ec7c0dae02057a9))
+* update Node.js version to 22 for semantic-release compatibility ([0b268b7](https://github.com/MarkShawn2020/better-copy-path-with-lines/commit/0b268b7fbb0179a90c21c00be4c3446d781fbb82))
+
+
+### Features
+
+* add Open VSX Registry publishing support ([1a425ea](https://github.com/MarkShawn2020/better-copy-path-with-lines/commit/1a425ea18e7c09f627a45bb65171e9f4013d53f3))
+* implement automated release pipeline with semantic-release ([0045d32](https://github.com/MarkShawn2020/better-copy-path-with-lines/commit/0045d32c9685aa6c158f224b63c04aae5c2a39cb))
+* setup VSCode Marketplace publishing infrastructure ([89604c7](https://github.com/MarkShawn2020/better-copy-path-with-lines/commit/89604c7a233634f6047190f5e7324d4f37fb6524))
+
 # Change Log
 
 All notable changes to the "copy-path-with-line-number" extension will be documented in this file.
