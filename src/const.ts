@@ -1,5 +1,5 @@
 const DefaultRangeSeparator = ',';
-const DefaultRangeConnector = '~';
+const DefaultRangeConnector = '-';
 const DefaultPathSeparator = '/';
 
 

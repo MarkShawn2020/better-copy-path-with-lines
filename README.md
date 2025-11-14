@@ -15,7 +15,7 @@ A VSCode extension that copies file paths **with line numbers** in a single clic
 **Quick Copy from Anywhere**
 - Right-click in **line number area** → Get `src/app.ts:42`
 - Right-click in **editor** → Get path with current line
-- Works with **single line**, **range** (`10~20`), or **multiple selections** (`5, 10, 15`)
+- Works with **single line**, **range** (`10-20`), or **multiple selections** (`5, 10, 15`)
 
 **Two Formats**
 - 📂 **Relative Path**: `src/components/Button.tsx:42`
@@ -23,7 +23,7 @@ A VSCode extension that copies file paths **with line numbers** in a single clic
 
 **Customizable**
 - 🔧 Path separator: `/` or `\` or system default
-- 🔧 Range connector: `~` or `-` (e.g., `10~20` vs `10-20`)
+- 🔧 Range connector: `-` or `~` (e.g., `10-20` vs `10~20`)
 - 🔧 Selection separator: `,` or `;` or space
 
 ## 🎯 Why This Fork?
@@ -86,7 +86,7 @@ npm run compile
 
 **Multi-line selection:**
 ```
-Select lines 10-20 → Copy → src/app.ts:10~20
+Select lines 10-20 → Copy → src/app.ts:10-20
 Multiple selections → Copy → src/app.ts:5, 10, 15
 ```
 
@@ -97,7 +97,7 @@ Customize separators and connectors in VSCode settings:
 ```json
 {
   "copyPathWithLineNumber.path.separator": "slash",      // "/" or "\" or "system"
-  "copyPathWithLineNumber.range.connector": "tilde",     // "~" or "-"
+  "copyPathWithLineNumber.range.connector": "dash",      // "-" or "~"
   "copyPathWithLineNumber.selection.separator": "comma", // "," or ";" or " "
   "copyPathWithLineNumber.show.message": true            // Show notification
 }
@@ -105,8 +105,8 @@ Customize separators and connectors in VSCode settings:
 
 **Examples:**
 ```
-Default:     src/components/Button.tsx:42~55
-With dash:   src/components/Button.tsx:42-55
+Default:     src/components/Button.tsx:42-55
+With tilde:  src/components/Button.tsx:42~55
 With space:  src/components/Button.tsx:10 20 30
 ```
 
@@ -173,7 +173,15 @@ MIT License - Same as original project
 
 ## 📝 Release Notes
 
-### 0.1.2 (Latest)
+### 0.1.3 (Latest)
+
+**⚡ Improved Defaults**
+- Changed default range connector from `~` to `-` (industry standard: `10-20` instead of `10~20`)
+- Matches GitHub, GitLab, grep, and most developer tools
+- Easier to type (no Shift key needed)
+- `~` still available as configuration option
+
+### 0.1.2
 
 **🐛 Critical Bug Fix**
 - Fixed line number gutter context menu (VSCode API `{lineNumber, uri}` handling)

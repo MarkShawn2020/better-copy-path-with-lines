@@ -2,7 +2,7 @@
   "name": "copy-path-with-line-number",
   "displayName": "copy-path-with-line-number",
   "description": "copy absolute or relative path with current line number or selected lines range info in editor context",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "icon": "images/icon.png",
   "publisher": "qishan233",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -79,17 +79,17 @@
         "copyPathWithLineNumber.range.connector": {
           "type": "string",
           "enum": [
-            "tilde",
-            "dash"
+            "dash",
+            "tilde"
           ],
-          "default": "tilde",
+          "default": "dash",
           "enumDescriptions": [
-            "%configuration.range.connector.description.tilde%",
-            "%configuration.range.connector.description.dash%"
+            "%configuration.range.connector.description.dash%",
+            "%configuration.range.connector.description.tilde%"
           ],
           "enumItemLabels": [
-            "tilde",
-            "dash"
+            "dash",
+            "tilde"
           ],
           "description": "%configuration.description.range.connector%"
         },
