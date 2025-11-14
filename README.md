@@ -24,7 +24,6 @@ A VSCode extension that copies file paths **with line numbers** in a single clic
 - Works with **single line**, **range** (`10-20`), or **multiple selections** (`5, 10, 15`)
 
 ![alt text](./images/copy-filepath-with-line-number_selected.gif)
-
 **Two Formats**
 - 📂 **Relative Path**: `src/components/Button.tsx:42`
 - 📁 **Absolute Path**: `/Users/me/project/src/components/Button.tsx:42`
