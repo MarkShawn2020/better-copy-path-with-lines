@@ -14,8 +14,16 @@
 
 **随处快速复制**
 - 在**行号区域**右键 → 得到 `src/app.ts:42`
+
+![](./images/copy-filepath-with-line-number_gutter.gif)
+
 - 在**编辑器**中右键 → 得到当前行的路径
+
+![](./images/copy-filepath-with-line-number_non-selected.gif)
+
 - 支持**单行**、**范围**（`10-20`）或**多处选择**（`5, 10, 15`）
+
+![](./images/copy-filepath-with-line-number_selected.gif)
 
 **两种格式**
 - 📂 **相对路径**：`src/components/Button.tsx:42`

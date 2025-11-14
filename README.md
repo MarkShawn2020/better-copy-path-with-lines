@@ -14,8 +14,16 @@ A VSCode extension that copies file paths **with line numbers** in a single clic
 
 **Quick Copy from Anywhere**
 - Right-click in **line number area** → Get `src/app.ts:42`
+
+![alt text](./images/copy-filepath-with-line-number_gutter.gif)
+
 - Right-click in **editor** → Get path with current line
+
+![alt text](./images/copy-filepath-with-line-number_non-selected.gif)
+
 - Works with **single line**, **range** (`10-20`), or **multiple selections** (`5, 10, 15`)
+
+![alt text](./images/copy-filepath-with-line-number_selected.gif)
 
 **Two Formats**
 - 📂 **Relative Path**: `src/components/Button.tsx:42`
