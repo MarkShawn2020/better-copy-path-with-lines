@@ -58,6 +58,12 @@
           "group": "copy_it@001"
         }
       ],
+      "editor/lineNumber/context": [
+        {
+          "submenu": "qishan233.copy.path.with.line",
+          "group": "copy_it@001"
+        }
+      ],
       "qishan233.copy.path.with.line": [
         {
           "command": "qishan233.copy.relative.path",
