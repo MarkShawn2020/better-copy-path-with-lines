@@ -36,6 +36,10 @@ It also supports Chinese and English(need reload window to active the effect aft
 
 ## Release Notes
 
+### 0.1.0
+
+Add line number gutter context menu support - users can now right-click in the line number area to copy path with line number.
+
 ### 0.0.7
 
 Remove gif images from repository to reduce this size of this extension.
