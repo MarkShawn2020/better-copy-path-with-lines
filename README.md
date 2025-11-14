@@ -1,12 +1,34 @@
 # Copy Path with Line Number
 
-> **⚡ Enhanced Fork** - Focused on speed and usability | [中文文档](./README_ZH.md)
+> 🚀 VSCode extension for copying file paths with line numbers | [中文文档](./README_ZH.md)
 
-A streamlined VSCode extension that copies file paths **with line numbers** in a single click. Perfect for sharing code references in issues, PRs, and documentation.
+## 💡 What is This?
+
+A VSCode extension that copies file paths **with line numbers** in a single click. Perfect for:
+- 📝 Sharing code references in GitHub issues/PRs
+- 💬 Discussing specific code lines in Slack/Teams
+- 📚 Writing documentation with precise code locations
+- 🐛 Reporting bugs with exact line numbers
+
+## ✨ Features
+
+**Quick Copy from Anywhere**
+- Right-click in **line number area** → Get `src/app.ts:42`
+- Right-click in **editor** → Get path with current line
+- Works with **single line**, **range** (`10~20`), or **multiple selections** (`5, 10, 15`)
+
+**Two Formats**
+- 📂 **Relative Path**: `src/components/Button.tsx:42`
+- 📁 **Absolute Path**: `/Users/me/project/src/components/Button.tsx:42`
+
+**Customizable**
+- 🔧 Path separator: `/` or `\` or system default
+- 🔧 Range connector: `~` or `-` (e.g., `10~20` vs `10-20`)
+- 🔧 Selection separator: `,` or `;` or space
 
 ## 🎯 Why This Fork?
 
-This is an enhanced fork of [qishan233/copy-path-with-line-number](https://github.com/qishan233/copy-path-with-line-number) with significant improvements:
+> This is an **enhanced fork** of [qishan233/copy-path-with-line-number](https://github.com/qishan233/copy-path-with-line-number)
 
 ### ✨ Key Improvements
 
