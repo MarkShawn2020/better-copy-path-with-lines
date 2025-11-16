@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/MarkShawn2020/better-copy-path-with-lines/compare/v0.2.1...v0.2.2) (2025-11-16)
+
+
+### Bug Fixes
+
+* add activation events to ensure commands are registered ([28f0060](https://github.com/MarkShawn2020/better-copy-path-with-lines/commit/28f0060e7cc1e263a546ed643ccecdcbc61008f6))
+
 ## [0.2.1](https://github.com/MarkShawn2020/better-copy-path-with-lines/compare/v0.2.0...v0.2.1) (2025-11-16)
 
 
