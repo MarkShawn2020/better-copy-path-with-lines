@@ -84,8 +84,8 @@ When copying multiple files/lines:
 ## Extension Points
 
 ### Commands (registered in package.json)
-- `qishan233.copy.relative.path.line` - Copy relative path with line number (format: `path:line`)
-- `qishan233.copy.absolute.path.line` - Copy absolute path with line number (format: `path:line`)
+- `markshawn2020.copy.relative.path.line` - Copy relative path with line number (format: `path:line`)
+- `markshawn2020.copy.absolute.path.line` - Copy absolute path with line number (format: `path:line`)
 
 ### Context Menus
 - **Editor context** (code editor right-click) - shows 2 commands directly (no submenu)

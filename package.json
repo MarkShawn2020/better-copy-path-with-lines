@@ -31,32 +31,32 @@
   "contributes": {
     "commands": [
       {
-        "command": "qishan233.copy.relative.path.line",
+        "command": "markshawn2020.copy.relative.path.line",
         "title": "%command.copy.relative.path.line.title%"
       },
       {
-        "command": "qishan233.copy.absolute.path.line",
+        "command": "markshawn2020.copy.absolute.path.line",
         "title": "%command.copy.absolute.path.line.title%"
       }
     ],
     "menus": {
       "editor/context": [
         {
-          "command": "qishan233.copy.relative.path.line",
+          "command": "markshawn2020.copy.relative.path.line",
           "group": "9_cutcopypaste@100"
         },
         {
-          "command": "qishan233.copy.absolute.path.line",
+          "command": "markshawn2020.copy.absolute.path.line",
           "group": "9_cutcopypaste@101"
         }
       ],
       "editor/lineNumber/context": [
         {
-          "command": "qishan233.copy.relative.path.line",
+          "command": "markshawn2020.copy.relative.path.line",
           "group": "9_cutcopypaste@100"
         },
         {
-          "command": "qishan233.copy.absolute.path.line",
+          "command": "markshawn2020.copy.absolute.path.line",
           "group": "9_cutcopypaste@101"
         }
       ]
